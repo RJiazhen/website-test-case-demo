@@ -1,7 +1,7 @@
-import { autoTest } from '../decorator/index.js';
+import { autoRun } from '../decorator/index.js';
 import { sleep } from '../utils/sleep.js';
 
-@autoTest
+@autoRun
 class testCase2 {
   async page2() {
     console.log('测试用例2在page2中开始执行');

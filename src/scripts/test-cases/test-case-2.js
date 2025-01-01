@@ -45,10 +45,10 @@ var __setFunctionName = (this && this.__setFunctionName) || function (f, name, p
     if (typeof name === "symbol") name = name.description ? "[".concat(name.description, "]") : "";
     return Object.defineProperty(f, "name", { configurable: true, value: prefix ? "".concat(prefix, " ", name) : name });
 };
-import { autoTest } from '../decorator/index.js';
+import { autoRun } from '../decorator/index.js';
 import { sleep } from '../utils/sleep.js';
 let testCase2 = (() => {
-    let _classDecorators = [autoTest];
+    let _classDecorators = [autoRun];
     let _classDescriptor;
     let _classExtraInitializers = [];
     let _classThis;

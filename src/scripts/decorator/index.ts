@@ -5,7 +5,7 @@
  **/
 
 /** 自动执行测试用例的类装饰器 */
-export const autoTest = (constructor: any) => {
+export const autoRun = (constructor: any) => {
   // 检查当前页面url中的页面地址，执行对应的方法
   const pageName = window.location.pathname
     .split('/')

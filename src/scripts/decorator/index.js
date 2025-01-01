@@ -4,7 +4,7 @@
  * @date: 2025-01-01 16:37:45
  **/
 /** 自动执行测试用例的类装饰器 */
-export const autoTest = (constructor) => {
+export const autoRun = (constructor) => {
     var _a;
     // 检查当前页面url中的页面地址，执行对应的方法
     const pageName = (_a = window.location.pathname

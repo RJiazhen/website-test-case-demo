@@ -1,7 +1,7 @@
-import { autoTest } from '../decorator/index.js';
+import { autoRun } from '../decorator/index.js';
 import { sleep } from '../utils/sleep.js';
 
-@autoTest
+@autoRun
 class testCase1 {
   async page1() {
     // test case 2
